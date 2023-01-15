@@ -1,0 +1,105 @@
+/* Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a 
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color:#EAC926;
+    width: 100%;
+}
+main{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.main-section-title{
+    margin-bottom: 20px;
+}
+
+.description {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+
+.align-image{
+    text-align: center;
+    border: solid 1px #ebebeb;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+main article{
+    margin-bottom: 10px;
+}
+
+
+img{
+    width: 20%;
+}
+
+/*margin right para que me baje el buscador */
+
+.header-logo{
+    width: 45%;
+    margin-right: 80px;
+}
+
+.header-title{
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+li a{
+    color:black;
+    font-size: 11px;
+}
+
+.options{
+    line-height: 10px;
+}
+
+.burguer-menu{
+    width: 40px;
+    height:40px ;
+    margin: 10px auto;
+    background-color: #1259c3;
+    border-radius: 8px;
+}
+
+.fa-bars{
+    line-height: 40px !important;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media (max-width: 361px) {
+    .navegation {
+      display: none;
+    }
+  
+    .description {
+      display: none;
+    }
+    .home-banner{
+      display: none;
+    }
+  }
